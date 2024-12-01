@@ -17,7 +17,6 @@ def part2(leftlist, rightList):
         nrOfMatches = [index for index in range(len(rightList)) if rightList[index] == i]
         similarityScore += i * len(nrOfMatches)
 
-    print(rightList)
     return similarityScore
 
 
